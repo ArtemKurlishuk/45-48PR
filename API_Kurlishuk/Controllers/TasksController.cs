@@ -9,6 +9,7 @@ using System.Security.Policy;
 namespace API_Kurlishuk.Controllers
 {
     [Route("api/TasksController")] //указываем раздел
+    [ApiExplorerSettings(GroupName = "v1")]
     public class TasksController : Controller
     {
         ///<summary>
