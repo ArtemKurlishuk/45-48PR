@@ -43,7 +43,7 @@ namespace API_Kurlishuk.Controllers
         [HttpGet] //указываем какой тип запроса используется
         [ProducesResponseType(typeof(List<Tasks>), 200)]
         [ProducesResponseType(500)]
-        public ActionResult Item(int id) 
+        public ActionResult Item(int Id) 
         {
             try
             {
